@@ -1,0 +1,98 @@
+/* App.css */
+
+.kanban-board {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+
+  .sohom{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .done1 {
+    display: flex;
+    align-items: center; /* Aligns icon and text vertically */
+  }
+  
+  .done1 h2 {
+    margin-left: 10px; /* Adds some space between the icon and the text */
+  }
+
+  .done2 {
+    display: flex;
+    align-items: center; /* Aligns icon and text vertically */
+  }
+  
+  .done2 h2 {
+    margin-right: 0px; /* Adds some space between the icon and the text */
+  }
+  
+  
+
+  .kanban-column {
+    display: flex ;
+    align-items: center;
+   
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .kanban-column h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .task-card {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-card h3 {
+    margin: 0;
+    color: #242526;
+  }
+  
+  .task-card p {
+    margin: 0;
+    color: #555;
+  }
+  
+  /* General task-card styling */
+.task-card {
+  /* Add your task card styles here */
+}
+
+/* Plus and three-dot icons styling */
+.done2 img {
+  cursor: pointer; /* Add this to make the pointer appear on hover */
+}
+
+/* Form modal */
+.task-form input {
+  /* Form input styles here */
+}
+
+.task-form button {
+  /* Form button styles here */
+}
+
+.task-count {
+  color: gray;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.column .done1 h4 {
+  margin-left: 8px; /* Adjust the value as needed for spacing */
+}
+
+
